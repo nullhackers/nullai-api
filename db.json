@@ -1,150 +1,616 @@
 {
   "tools": [
     {
-      "id": "zsky-ai",
-      "name": "Zsky.ai",
-      "website": "https://zsky.ai/",
-      "category": "AI Videos",
-      "description": "AI video and image generation platform with editing capabilities.",
-      "access": {
-        "loginRequired": true,
-        "loginMethod": "Google",
-        "credits": "400 credits/month"
-      },
-      "generation": {
-        "type": ["Video", "Image"],
-        "durations": ["5s", "8s", "12s"],
-        "resolution": null,
-        "aspectRatio": null
-      },
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "description": "Your versatile thinking partner. Write, brainstorm, code, and solve everyday problems in one conversation.",
+      "category": "Productivity",
+      "pricing": "Freemium",
+      "website": "https://chatgpt.com",
+      "model": "OpenAI models",
+      "icon": "MessageSquare",
+      "color": "#57aa8b",
+      "capabilities": ["Chat", "Writing", "Code"],
+      "featured": true,
+      "trending": true,
+      "rank": 1,
+      "addedAt": "2026-09-01",
+      "tags": ["productivity", "Chat", "Writing", "Code"],
       "features": [
-        "Edit video",
-        "Adjust colours"
+        "Chat workflows",
+        "Writing workflows",
+        "Code workflows",
+        "Browser-based experience"
       ],
-      "notes": null,
-      "lastUpdated": "2026-09-26"
+      "useCases": [
+        "Brainstorm ideas",
+        "Summarize information",
+        "Streamline everyday work"
+      ]
     },
     {
-      "id": "miora-design",
-      "name": "miora.design",
-      "website": "https://miora.design/",
-      "category": "AI Videos",
-      "description": "AI video generation platform with multi-video combining and character features.",
-      "access": {
-        "loginRequired": true,
-        "loginMethod": "Google",
-        "credits": "1000 credits"
-      },
-      "generation": {
-        "type": ["Video"],
-        "durations": ["5s"],
-        "resolution": null,
-        "aspectRatio": null
-      },
+      "id": "claude",
+      "name": "Claude",
+      "description": "A thoughtful collaborator for deep work. Turn complex ideas into clear writing, analysis, and reliable code.",
+      "category": "Writing",
+      "pricing": "Freemium",
+      "website": "https://claude.ai",
+      "model": "Claude models",
+      "icon": "Sparkles",
+      "color": "#ce9176",
+      "capabilities": ["Chat", "Writing", "Code"],
+      "featured": true,
+      "trending": true,
+      "rank": 2,
+      "addedAt": "2026-09-02",
+      "tags": ["writing", "Chat", "Writing", "Code"],
       "features": [
-        "Combine multiple videos",
-        "Add an image character"
+        "Chat workflows",
+        "Writing workflows",
+        "Code workflows",
+        "Browser-based experience"
       ],
-      "notes": null,
-      "lastUpdated": "2026-09-26"
+      "useCases": [
+        "Draft a first version",
+        "Explore ideas",
+        "Refine your message"
+      ]
     },
     {
-      "id": "everypixel-workroom",
-      "name": "Everypixel Workroom",
-      "website": "https://workroom.everypixel.com/",
-      "category": "AI Videos",
-      "description": "AI video generation tool with a straightforward credit-based system.",
-      "access": {
-        "loginRequired": true,
-        "loginMethod": "Google",
-        "credits": "200 credits/month"
-      },
-      "generation": {
-        "type": ["Video"],
-        "durations": ["10s"],
-        "resolution": null,
-        "aspectRatio": null
-      },
-      "features": [],
-      "notes": null,
-      "lastUpdated": "2026-09-26"
+      "id": "midjourney",
+      "name": "Midjourney",
+      "description": "From a spark of imagination to a striking visual. Create expressive images with a few well-chosen words.",
+      "category": "Image",
+      "pricing": "Paid",
+      "website": "https://www.midjourney.com",
+      "model": "Midjourney models",
+      "icon": "Sailboat",
+      "color": "#a4b4db",
+      "capabilities": ["Image generation"],
+      "featured": true,
+      "trending": false,
+      "rank": 3,
+      "addedAt": "2026-09-03",
+      "tags": ["image", "Image generation"],
+      "features": ["Image generation workflows", "Browser-based experience"],
+      "useCases": [
+        "Explore visual concepts",
+        "Develop a moodboard",
+        "Create image variations"
+      ]
     },
     {
-      "id": "snapgen-ai",
-      "name": "Snapgen.ai",
-      "website": "https://snapgen.ai/",
-      "category": "AI Videos",
-      "description": "AI video generation tool with unlimited video generation and fast processing.",
-      "access": {
-        "loginRequired": true,
-        "loginMethod": "Google",
-        "credits": "Unlimited video generation"
-      },
-      "generation": {
-        "type": ["Video"],
-        "durations": ["8s"],
-        "resolution": "1080p",
-        "aspectRatio": null
-      },
+      "id": "perplexity",
+      "name": "Perplexity",
+      "description": "Go from a question to a clearer understanding. Explore answers with links to the sources behind them.",
+      "category": "Research",
+      "pricing": "Freemium",
+      "website": "https://www.perplexity.ai",
+      "model": "Multiple models",
+      "icon": "ScanLine",
+      "color": "#58bec3",
+      "capabilities": ["Search", "Chat"],
+      "featured": true,
+      "trending": true,
+      "rank": 4,
+      "addedAt": "2026-09-04",
+      "tags": ["research", "Search", "Chat"],
       "features": [
-        "Faster generation"
+        "Search workflows",
+        "Chat workflows",
+        "Browser-based experience"
       ],
-      "notes": null,
-      "lastUpdated": "2026-09-26"
+      "useCases": [
+        "Explore a topic",
+        "Find supporting sources",
+        "Organize research"
+      ]
     },
     {
-      "id": "tiktok-creative-studio",
-      "name": "TikTok Creative Studio",
-      "website": "https://ads.tiktok.com/creative/creativestudio",
-      "category": "AI Videos",
-      "description": "TikTok's official AI creative studio for generating videos and images.",
-      "access": {
-        "loginRequired": true,
-        "loginMethod": "Email",
-        "credits": "400 credits/week"
-      },
-      "generation": {
-        "type": ["Video", "Image"],
-        "durations": ["5s", "8s", "12s"],
-        "resolution": null,
-        "aspectRatio": "9:16"
-      },
+      "id": "cursor",
+      "name": "Cursor",
+      "description": "An AI-powered code editor that understands your project and helps you build with less friction.",
+      "category": "Coding",
+      "pricing": "Freemium",
+      "website": "https://cursor.com",
+      "model": "Multiple models",
+      "icon": "Code2",
+      "color": "#8a8aa7",
+      "capabilities": ["Code", "Chat"],
+      "featured": false,
+      "trending": true,
+      "rank": 5,
+      "addedAt": "2026-09-05",
+      "tags": ["coding", "Code", "Chat"],
       "features": [
-        "Faster generation"
+        "Code workflows",
+        "Chat workflows",
+        "Browser-based experience"
       ],
-      "notes": null,
-      "lastUpdated": "2026-09-26"
+      "useCases": [
+        "Prototype an application",
+        "Explain existing code",
+        "Debug a problem"
+      ]
     },
     {
-      "id": "hunyuan-video",
-      "name": "Hunyuan Video",
-      "website": "https://www.hunyuanvideo.org/",
-      "category": "AI Videos",
-      "description": "Open AI video generation tool that requires no login or account.",
-      "access": {
-        "loginRequired": false,
-        "loginMethod": null,
-        "credits": null
-      },
-      "generation": {
-        "type": ["Video"],
-        "durations": ["5s"],
-        "resolution": null,
-        "aspectRatio": null
-      },
-      "features": [],
-      "notes": "Generation may sometimes fail.",
-      "lastUpdated": "2026-09-26"
+      "id": "runway",
+      "name": "Runway",
+      "description": "A creative toolkit for moving images. Explore AI video generation, editing, and visual storytelling.",
+      "category": "Video",
+      "pricing": "Freemium",
+      "website": "https://runwayml.com",
+      "model": "Runway models",
+      "icon": "Clapperboard",
+      "color": "#b293ed",
+      "capabilities": ["Video generation", "Image generation"],
+      "featured": false,
+      "trending": true,
+      "rank": 6,
+      "addedAt": "2026-09-06",
+      "tags": ["video", "Video generation", "Image generation"],
+      "features": [
+        "Video generation workflows",
+        "Image generation workflows",
+        "Browser-based experience"
+      ],
+      "useCases": [
+        "Prototype a video concept",
+        "Explore visual storytelling",
+        "Create social content"
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "description": "Give your ideas a voice. Create expressive speech, explore voice design, and bring audio projects to life.",
+      "category": "Audio",
+      "pricing": "Freemium",
+      "website": "https://elevenlabs.io",
+      "model": "ElevenLabs models",
+      "icon": "AudioLines",
+      "color": "#e7cb84",
+      "capabilities": ["Voice", "Audio generation"],
+      "featured": false,
+      "trending": true,
+      "rank": 7,
+      "addedAt": "2026-09-07",
+      "tags": ["audio", "Voice", "Audio generation"],
+      "features": [
+        "Voice workflows",
+        "Audio generation workflows",
+        "Browser-based experience"
+      ],
+      "useCases": [
+        "Prototype an audio project",
+        "Explore sounds and voices",
+        "Create content"
+      ]
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "description": "Bring a helpful AI partner into your workspace for writing, organizing information, and finding answers.",
+      "category": "Productivity",
+      "pricing": "Paid",
+      "website": "https://www.notion.so/product/ai",
+      "model": "Multiple models",
+      "icon": "Notebook",
+      "color": "#ababba",
+      "capabilities": ["Writing", "Search", "Chat"],
+      "featured": false,
+      "trending": false,
+      "rank": 8,
+      "addedAt": "2026-09-08",
+      "tags": ["productivity", "Writing", "Search", "Chat"],
+      "features": [
+        "Writing workflows",
+        "Search workflows",
+        "Chat workflows",
+        "Browser-based experience"
+      ],
+      "useCases": [
+        "Brainstorm ideas",
+        "Summarize information",
+        "Streamline everyday work"
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "description": "Your coding companion, from the first line to the next pull request. Get suggestions inside your workflow.",
+      "category": "Coding",
+      "pricing": "Freemium",
+      "website": "https://github.com/features/copilot",
+      "model": "Multiple models",
+      "icon": "GitBranch",
+      "color": "#97ade1",
+      "capabilities": ["Code", "Chat"],
+      "featured": false,
+      "trending": false,
+      "rank": 9,
+      "addedAt": "2026-09-09",
+      "tags": ["coding", "Code", "Chat"],
+      "features": [
+        "Code workflows",
+        "Chat workflows",
+        "Browser-based experience"
+      ],
+      "useCases": [
+        "Prototype an application",
+        "Explain existing code",
+        "Debug a problem"
+      ]
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "description": "Explore generative creativity with image and video tools designed for visual workflows.",
+      "category": "Image",
+      "pricing": "Freemium",
+      "website": "https://firefly.adobe.com",
+      "model": "Firefly models",
+      "icon": "Flame",
+      "color": "#e89074",
+      "capabilities": ["Image generation", "Video generation"],
+      "featured": false,
+      "trending": false,
+      "rank": 10,
+      "addedAt": "2026-09-10",
+      "tags": ["image", "Image generation", "Video generation"],
+      "features": [
+        "Image generation workflows",
+        "Video generation workflows",
+        "Browser-based experience"
+      ],
+      "useCases": [
+        "Explore visual concepts",
+        "Develop a moodboard",
+        "Create image variations"
+      ]
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "description": "Create imaginative visuals and explore text-rich image concepts for your next creative project.",
+      "category": "Image",
+      "pricing": "Freemium",
+      "website": "https://ideogram.ai",
+      "model": "Ideogram models",
+      "icon": "Image",
+      "color": "#b59fe4",
+      "capabilities": ["Image generation"],
+      "featured": false,
+      "trending": false,
+      "rank": 11,
+      "addedAt": "2026-09-11",
+      "tags": ["image", "Image generation"],
+      "features": ["Image generation workflows", "Browser-based experience"],
+      "useCases": [
+        "Explore visual concepts",
+        "Develop a moodboard",
+        "Create image variations"
+      ]
+    },
+    {
+      "id": "leonardo",
+      "name": "Leonardo.Ai",
+      "description": "Build visual worlds with AI image generation, creative controls, and tools for concept exploration.",
+      "category": "Image",
+      "pricing": "Freemium",
+      "website": "https://leonardo.ai",
+      "model": "Multiple image models",
+      "icon": "Palette",
+      "color": "#ba94dc",
+      "capabilities": ["Image generation"],
+      "featured": false,
+      "trending": false,
+      "rank": 12,
+      "addedAt": "2026-09-12",
+      "tags": ["image", "Image generation"],
+      "features": ["Image generation workflows", "Browser-based experience"],
+      "useCases": [
+        "Explore visual concepts",
+        "Develop a moodboard",
+        "Create image variations"
+      ]
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "description": "Edit audio and video like a document. Turn recordings into polished stories with an AI-assisted editor.",
+      "category": "Video",
+      "pricing": "Freemium",
+      "website": "https://www.descript.com",
+      "model": "Descript AI",
+      "icon": "Film",
+      "color": "#86a4e8",
+      "capabilities": ["Voice", "Transcription"],
+      "featured": false,
+      "trending": false,
+      "rank": 13,
+      "addedAt": "2026-09-13",
+      "tags": ["video", "Voice", "Transcription"],
+      "features": [
+        "Voice workflows",
+        "Transcription workflows",
+        "Browser-based experience"
+      ],
+      "useCases": [
+        "Prototype a video concept",
+        "Explore visual storytelling",
+        "Create social content"
+      ]
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "description": "Create presenter-led videos using AI avatars and voices for learning, explainers, and team communication.",
+      "category": "Video",
+      "pricing": "Freemium",
+      "website": "https://www.synthesia.io",
+      "model": "Synthesia models",
+      "icon": "Video",
+      "color": "#a3a0ef",
+      "capabilities": ["Video generation", "Voice"],
+      "featured": false,
+      "trending": false,
+      "rank": 14,
+      "addedAt": "2026-09-14",
+      "tags": ["video", "Video generation", "Voice"],
+      "features": [
+        "Video generation workflows",
+        "Voice workflows",
+        "Browser-based experience"
+      ],
+      "useCases": [
+        "Prototype a video concept",
+        "Explore visual storytelling",
+        "Create social content"
+      ]
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "description": "Turn an idea into a song. Experiment with genres, lyrics, and sound without a recording studio.",
+      "category": "Audio",
+      "pricing": "Freemium",
+      "website": "https://suno.com",
+      "model": "Suno models",
+      "icon": "Music2",
+      "color": "#e6a0ba",
+      "capabilities": ["Audio generation"],
+      "featured": false,
+      "trending": true,
+      "rank": 15,
+      "addedAt": "2026-09-15",
+      "tags": ["audio", "Audio generation"],
+      "features": ["Audio generation workflows", "Browser-based experience"],
+      "useCases": [
+        "Prototype an audio project",
+        "Explore sounds and voices",
+        "Create content"
+      ]
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "description": "Explore AI-generated music, develop song ideas, and find a new direction for your next track.",
+      "category": "Audio",
+      "pricing": "Freemium",
+      "website": "https://udio.com",
+      "model": "Udio models",
+      "icon": "Headphones",
+      "color": "#b4b1f3",
+      "capabilities": ["Audio generation"],
+      "featured": false,
+      "trending": false,
+      "rank": 16,
+      "addedAt": "2026-09-16",
+      "tags": ["audio", "Audio generation"],
+      "features": ["Audio generation workflows", "Browser-based experience"],
+      "useCases": [
+        "Prototype an audio project",
+        "Explore sounds and voices",
+        "Create content"
+      ]
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "description": "Make every message clearer. Get help with tone, grammar, and writing across your everyday work.",
+      "category": "Writing",
+      "pricing": "Freemium",
+      "website": "https://www.grammarly.com",
+      "model": "Grammarly AI",
+      "icon": "PenLine",
+      "color": "#71b69c",
+      "capabilities": ["Writing"],
+      "featured": false,
+      "trending": false,
+      "rank": 17,
+      "addedAt": "2026-09-17",
+      "tags": ["writing", "Writing"],
+      "features": ["Writing workflows", "Browser-based experience"],
+      "useCases": [
+        "Draft a first version",
+        "Explore ideas",
+        "Refine your message"
+      ]
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "description": "A creative partner for marketing teams, helping turn campaign ideas into consistent branded content.",
+      "category": "Writing",
+      "pricing": "Paid",
+      "website": "https://www.jasper.ai",
+      "model": "Multiple models",
+      "icon": "Feather",
+      "color": "#bf9fe6",
+      "capabilities": ["Writing"],
+      "featured": false,
+      "trending": false,
+      "rank": 18,
+      "addedAt": "2026-09-18",
+      "tags": ["writing", "Writing"],
+      "features": ["Writing workflows", "Browser-based experience"],
+      "useCases": [
+        "Draft a first version",
+        "Explore ideas",
+        "Refine your message"
+      ]
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "description": "Find a better way to say it. Refine your writing with paraphrasing, grammar, and summarization tools.",
+      "category": "Writing",
+      "pricing": "Freemium",
+      "website": "https://quillbot.com",
+      "model": "QuillBot models",
+      "icon": "Pencil",
+      "color": "#8dc489",
+      "capabilities": ["Writing"],
+      "featured": false,
+      "trending": false,
+      "rank": 19,
+      "addedAt": "2026-09-19",
+      "tags": ["writing", "Writing"],
+      "features": ["Writing workflows", "Browser-based experience"],
+      "useCases": [
+        "Draft a first version",
+        "Explore ideas",
+        "Refine your message"
+      ]
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "description": "Find research-backed perspectives. Discover scientific papers and explore evidence around your questions.",
+      "category": "Research",
+      "pricing": "Freemium",
+      "website": "https://consensus.app",
+      "model": "Consensus AI",
+      "icon": "BookOpen",
+      "color": "#7bb6d6",
+      "capabilities": ["Search", "Chat"],
+      "featured": false,
+      "trending": false,
+      "rank": 20,
+      "addedAt": "2026-09-20",
+      "tags": ["research", "Search", "Chat"],
+      "features": [
+        "Search workflows",
+        "Chat workflows",
+        "Browser-based experience"
+      ],
+      "useCases": [
+        "Explore a topic",
+        "Find supporting sources",
+        "Organize research"
+      ]
+    },
+    {
+      "id": "elicit",
+      "name": "Elicit",
+      "description": "Make literature reviews more manageable with tools for finding papers and extracting research insights.",
+      "category": "Research",
+      "pricing": "Freemium",
+      "website": "https://elicit.com",
+      "model": "Multiple models",
+      "icon": "Microscope",
+      "color": "#a998d4",
+      "capabilities": ["Search"],
+      "featured": false,
+      "trending": false,
+      "rank": 21,
+      "addedAt": "2026-09-21",
+      "tags": ["research", "Search"],
+      "features": ["Search workflows", "Browser-based experience"],
+      "useCases": [
+        "Explore a topic",
+        "Find supporting sources",
+        "Organize research"
+      ]
+    },
+    {
+      "id": "huggingchat",
+      "name": "HuggingChat",
+      "description": "Explore conversational AI powered by open models in a simple, accessible chat experience.",
+      "category": "Productivity",
+      "pricing": "Free",
+      "website": "https://huggingface.co/chat",
+      "model": "Open models",
+      "icon": "Bot",
+      "color": "#e6bd68",
+      "capabilities": ["Chat", "Writing", "Code"],
+      "featured": false,
+      "trending": false,
+      "rank": 22,
+      "addedAt": "2026-09-22",
+      "tags": ["productivity", "Chat", "Writing", "Code"],
+      "features": [
+        "Chat workflows",
+        "Writing workflows",
+        "Code workflows",
+        "Browser-based experience"
+      ],
+      "useCases": [
+        "Brainstorm ideas",
+        "Summarize information",
+        "Streamline everyday work"
+      ]
+    },
+    {
+      "id": "v0",
+      "name": "v0",
+      "description": "Go from a prompt to a working interface. Explore AI-assisted design and code for your next web project.",
+      "category": "Design",
+      "pricing": "Freemium",
+      "website": "https://v0.dev",
+      "model": "v0 models",
+      "icon": "PanelsTopLeft",
+      "color": "#a4b8cf",
+      "capabilities": ["Code", "Image generation"],
+      "featured": false,
+      "trending": true,
+      "rank": 23,
+      "addedAt": "2026-09-23",
+      "tags": ["design", "Code", "Image generation"],
+      "features": [
+        "Code workflows",
+        "Image generation workflows",
+        "Browser-based experience"
+      ],
+      "useCases": [
+        "Explore interface concepts",
+        "Build visual assets",
+        "Prototype a design"
+      ]
+    },
+    {
+      "id": "recraft",
+      "name": "Recraft",
+      "description": "Create design-ready visuals, explore vector graphics, and shape a consistent visual direction.",
+      "category": "Design",
+      "pricing": "Freemium",
+      "website": "https://www.recraft.ai",
+      "model": "Recraft models",
+      "icon": "Shapes",
+      "color": "#c2d57a",
+      "capabilities": ["Image generation"],
+      "featured": false,
+      "trending": false,
+      "rank": 24,
+      "addedAt": "2026-09-24",
+      "tags": ["design", "Image generation"],
+      "features": ["Image generation workflows", "Browser-based experience"],
+      "useCases": [
+        "Explore interface concepts",
+        "Build visual assets",
+        "Prototype a design"
+      ]
     }
-  ],
-  "categories": [
-    { "id": "ai-videos", "name": "AI Videos" },
-    { "id": "ai-images", "name": "AI Images" },
-    { "id": "coding", "name": "Coding" },
-    { "id": "ai-audio", "name": "AI Audio" },
-    { "id": "ai-writing", "name": "AI Writing" },
-    { "id": "ai-productivity", "name": "AI Productivity" },
-    { "id": "ai-design", "name": "AI Design" },
-    { "id": "other", "name": "Other" }
   ]
 }
